@@ -1,6 +1,8 @@
 # Antonio Busson - https://github.com/Busson/Inception-ResNet-v2
 # NVIDIA DIGITS template
 
+# [IMPORTANT!] Set initial Learning Rate with = 0.001
+
 from model import Tower
 from utils import model_property
 import tensorflow as tf
